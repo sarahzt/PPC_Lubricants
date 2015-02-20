@@ -3,5 +3,97 @@
 	padding:0;
 	margin:0;	
 	font-family:Arial, Helvetica, "Sans Serif";
-	outline:0px dotted red; /* dev only: outlines each element, but overlays, doesn't take up space like border */
+	outline:1px dotted red; /* dev only: outlines each element, but overlays, doesn't take up space like border */
+	min-height:1px;
+	}
+
+h1,h2 {
+	text-transform: uppercase;
 }
+
+.wrapper {
+	width:970px;
+	min-height:500px;
+	/* margin:0 auto; don't use yet */
+	}
+
+	.header {
+
+	}
+
+	.header .logo {
+		display:inline-block;
+		width:75%;
+	}
+
+	.header h1 {
+		display:inline-block;
+	}
+
+	.header ul.nav-menu {
+		display:inline-block;
+		background: -webkit-linear-gradient(#f4f7f8, #e2e8ec #edf0f3); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#f4f7f8, #e2e8ec #edf0f3); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#f4f7f8, #e2e8ec #edf0f3); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#f4f7f8, #e2e8ec #edf0f3); /* Standard syntax */
+	}
+
+		.header ul.nav-menu li {
+			display:inline-block;	
+			list-style-type: none;
+			padding-left:6px;
+			padding-bottom:8px;
+			margin-bottom:0px;
+			border-left:solid 1px #cccccc;
+		}
+
+		.header ul.nav-menu li:last-child {
+			padding-right:5px;
+		}
+
+		.header ul.nav-menu li a {
+			color:#999999;
+			text-decoration:none;
+			padding-right:6px;
+			padding-left:12px;
+			font-size: .75em;
+			text-transform: uppercase;
+		}
+
+.content {}
+
+	.content img.photo-featured {
+		display:inline-block;
+		border:5px solid #ffffff;
+		vertical-align:top;
+	}
+
+	.box-featured {
+		display: inline-block;
+		vertical-align:top;
+		/*padding-right:;
+		padding-bottom;*/
+	}
+
+	.box {
+		display: inline-block;
+		width:222px;
+		margin-right:10px;
+		border:2px solid #171614;
+		vertical-align: top;
+	}
+		.box h2, .box-featured h2 {
+			border-bottom:1px solid #000000;
+			background: -webkit-linear-gradient(#f7d03f #fdce27); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(#f7d03f #fdce27); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(#f7d03f #fdce27); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(#f7d03f #fdce27); /* Standard syntax */
+		}
+
+	.call-out {
+		width:60%;
+	}
+
+	.seperator {
+		height:50px;
+	}
