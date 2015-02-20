@@ -1,0 +1,7 @@
+/* resets the CSS browser default values for padding and margin */
+* {
+	padding:0;
+	margin:0;	
+	font-family:Arial, Helvetica, "Sans Serif";
+	outline:0px dotted red; /* dev only: outlines each element, but overlays, doesn't take up space like border */
+}
